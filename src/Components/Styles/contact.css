@@ -1,0 +1,102 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 0;
+  background: rgb(3, 7, 32);
+}
+
+.contact-me {
+  width: 90%;
+  text-align: start;
+  color: #ffffff;
+}
+
+.contact-me h1{
+  margin-bottom: 35px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  line-height: 1.2;
+}
+
+.contact-us p a{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-us,
+.address,
+.follow-us {
+  flex: 100%;
+  text-align: start;
+}
+
+.contact-us h3,
+.address h3,
+.follow-us h3 {
+  position: relative;
+}
+
+.contact-us h3::after,
+.address h3::after,
+.follow-us h3::after{
+  content: "";
+  bottom: -5px;
+  height: 4px;
+  left: 0px;
+  background-color: #3d7cf0;
+  box-shadow: 0 0 10px #3d7cf0;
+  width: 65px;
+  position: absolute;
+}
+
+.contact-us p{
+  line-height: 1.4;
+}
+.follow-us a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 5px;
+  transition: color 0.3s;
+}
+
+.follow-us a:hover {
+  color: #3d7cf0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .contact-me {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-us,
+  .address,
+  .follow-us {
+    text-align: start;
+  }
+
+  .follow-us a,
+  .contact-us p,
+  .address p{
+    margin: 10px;
+  }
+
+}

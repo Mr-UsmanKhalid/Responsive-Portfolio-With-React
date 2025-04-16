@@ -31,13 +31,14 @@
 
 
 .btn-sci .btn{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 8px 20px;
   background-color: #3d7cf0;
   border: 2px solid #3d7cf0;
-  border-radius: 48px;
+  border-radius: 30px;
   box-shadow: 0 0 10px #3d7cf0;
   transition: 0.5 ease-in-out;
   width: 200px;
@@ -52,6 +53,7 @@
 
 .home-info .btn-sci .sci{
   display: flex;
+  gap: 10px;
 }
 
 .home-info .btn-sci .sci a {

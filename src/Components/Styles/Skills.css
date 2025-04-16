@@ -6,6 +6,7 @@
   justify-content: center;
   background: rgb(12,41,96);
   padding: 20px;
+  height: 100vh;
 }
 
 /* Heading Styling */
@@ -17,19 +18,6 @@
   margin-bottom: 40px;
   position: relative;
 }
-
-/* .services-heading::after {
-  content: "";
-  bottom: -5px;
-  height: 4px;
-  left: 5px;
-  background-color: #3d7cf0;
-  box-shadow: 0 0 10px #3d7cf0;
-  width: 150px;
-  position: absolute;
-} */
-
-
 
 /* Grid layout for service cards */
 .services-grid {

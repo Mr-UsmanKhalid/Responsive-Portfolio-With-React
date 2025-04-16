@@ -2,18 +2,23 @@
 .Project-container {
   text-align: center;
   background: rgb(12,41,96);
-  padding-bottom: 100px;
+   padding: 40px 0;
   padding: 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  flex-direction: column;
 }
 
 /* Heading */
 .Project-heading {
   font-size: 2.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 40px;
   position: relative;
-  margin-bottom: 80px;
 }
 
 
@@ -133,9 +138,7 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .Project-container {
-    overflow-x: scroll;
-  }
+ 
   .Project-grid {
     display: flex;
     flex-wrap: nowrap;
